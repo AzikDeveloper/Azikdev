@@ -1,11 +1,23 @@
 
 DATABASES = {
-    'aws-db-1': {
-        'database': 'Company',
-        'user': 'postgres',
-        'password': 'angorelegan2002',
-        'host': 'database-1.cmumimcezu99.us-east-2.rds.amazonaws.com'
+    'default': {
+        'database': 'database_name_goes_here',
+        'user': 'username_goes_here',
+        'password': 'password_goes_here',
+        'host': 'database_host_goes_here'
+    }
+    'secondary': {
+        'database': 'database_name_goes_here',
+        'user': 'username_goes_here',
+        'password': 'password_goes_here',
+        'host': 'database_host_goes_here'
+    }
+    'extra': {
+        'database': 'database_name_goes_here',
+        'user': 'username_goes_here',
+        'password': 'password_goes_here',
+        'host': 'database_host_goes_here'
     }
 }
 
-use_db = 'aws-db-1'
+use_db = 'default'
