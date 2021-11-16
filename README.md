@@ -1,4 +1,4 @@
-# myorm
+# mypgorm
 ORM for Postgresql
 
 ##### Django-like orm for postgresql database.
