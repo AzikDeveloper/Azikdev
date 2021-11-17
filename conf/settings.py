@@ -19,4 +19,4 @@ DATABASES = {
     }
 }
 
-use_db = 'default'
+use_db = 'aws-db-1'
