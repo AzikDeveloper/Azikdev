@@ -2,6 +2,8 @@
 Python Web framework 
 
 ### features
--jinja2 integration
--Basic ORM (CRUD operations)
--Basics of MTV architecture
+<ul>
+  <li>-jinja2 integration</li>
+  <li>-Basic ORM (CRUD operations)</li>
+  <li>-Basics of MTV architecture</li>
+</ul>
