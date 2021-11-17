@@ -7,3 +7,7 @@ Python Web framework
   <li> Basic ORM (CRUD operations)</li>
   <li> Basics of MTV architecture</li>
 </ul>
+
+
+### NOTE
+This is just a showcase project and it is not ready to create web apps yet. I am constantly working on it.
