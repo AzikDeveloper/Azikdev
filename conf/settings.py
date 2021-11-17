@@ -2,19 +2,19 @@ DATABASES = {
     'aws-db-1': {
         'database': 'Company',
         'user': 'postgres',
-        'password': 'angorelegan2002',
-        'host': 'database-1.cmumimcezu99.us-east-2.rds.amazonaws.com'
+        'password': '*******',
+        'host': 'hostname.com'
     },
     'localpg': {
         'database': 'Company',
         'user': 'postgres',
-        'password': 'angorelegan2002',
+        'password': '********',
         'host': 'localhost'
     },
     'extrapg': {
         'database': 'Company',
         'user': 'postgres',
-        'password': 'angorelegan2002',
+        'password': '********',
         'host': 'azikdev-pg-server.com'
     }
 }
