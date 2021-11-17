@@ -3,16 +3,7 @@ from aziktools.shortcuts import render
 
 
 def homeView():
-    context = {
-        'name': 'Done?',
-        'users': ['Azizbek', 'R*******']
-    }
-    return render('home.html', context)
-
-
-def helloView():
-    return 'hi'
-
+    return render('home.html')
 
 def usersListView():
     users = User.objects.all()
@@ -21,7 +12,3 @@ def usersListView():
         'users': users
     }
     return render('users_list.html', context)
-
-
-def loginView():
-    return render('login.html')
