@@ -1,4 +1,4 @@
-# azikdev shell :)
+# Azikdev shell :)
 # I can make tests here
 from app.my_models import User
 
