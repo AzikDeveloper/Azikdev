@@ -1,8 +1,8 @@
 import inspect
 from app import my_models
-from db.db import DB
+from aziktools.db.connection import db
 
-db = DB()
+
 for name, CLASS in inspect.getmembers(my_models):
     if inspect.isclass(CLASS):
         if 'my_models' in str(CLASS):
@@ -25,4 +25,3 @@ for name, CLASS in inspect.getmembers(my_models):
 
             db.cursor.execute(sql)
             db.connection.commit()
-            # print(sql)

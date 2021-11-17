@@ -1,4 +1,4 @@
-from db.models import Model, CharField, IntegerField
+from aziktools.db.models import Model, CharField, IntegerField
 
 
 class User(Model):
