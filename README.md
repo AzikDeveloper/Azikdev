@@ -10,4 +10,4 @@ Python Web framework
 
 
 ### NOTE
-This is just a showcase project and it is not ready to create web apps yet. I am constantly working on it.
+This is just a showcase project and it is not ready to create web apps yet.
