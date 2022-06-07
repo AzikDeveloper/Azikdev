@@ -1,6 +1,6 @@
 from app.views import *
 
 url_patterns = {
-    '/': homeView
+    '/': homeView,
     '/users': usersListView
 }

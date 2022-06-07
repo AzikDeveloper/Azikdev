@@ -6,9 +6,9 @@ DATABASES = {
         'host': 'hostname.com'
     },
     'localpg': {
-        'database': 'Company',
+        'database': 'azikdev',
         'user': 'postgres',
-        'password': '********',
+        'password': 'angorelegan2002',
         'host': 'localhost'
     },
     'extrapg': {
@@ -19,4 +19,4 @@ DATABASES = {
     }
 }
 
-use_db = 'aws-db-1'
+use_db = 'localpg'

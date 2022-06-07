@@ -10,6 +10,7 @@ if __name__ == '__main__':
     user = user.save()
 
     users = User.objects.all()
-    for user in users:
-        print(user.name)
+
+    for user in users.instances:
+        print(user)
     print('>>')

@@ -1,7 +1,7 @@
 import inspect
 from app import my_models
 from aziktools.db.connection import db
-
+from aziktools.db.models import Objects
 
 for name, CLASS in inspect.getmembers(my_models):
     if inspect.isclass(CLASS):
@@ -15,8 +15,11 @@ for name, CLASS in inspect.getmembers(my_models):
             for i in model_attrs:
                 if '__' not in i:
                     # print(i)
-                    attr = getattr(model, i)
-                    sql += f""", {i} {attr.make_sql_field()}"""
+                    try:
+                        attr = getattr(model, i)
+                        sql += f""", {i} {attr.make_sql_field()}"""
+                    except AttributeError:
+                        pass
             sql += ")"
 
             existing_table_deletion_sql = f"""DROP TABLE IF EXISTS {table_name} """

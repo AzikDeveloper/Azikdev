@@ -40,7 +40,7 @@ class QuerySet:
         self.instances = instances
 
 
-"""Objects is class that is used to make database operations. Every Model that is created by inheriting Model class 
+"""Objects is class that is used to make database operations. Every Model that is created by inheriting Model class
 will have a global attribute called objects. 
  Usage example: User.objects.all() returns a QuerySet """
 
